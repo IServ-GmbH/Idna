@@ -11,25 +11,15 @@
             "role": "lead"
         }
     ],
-    "version": "1.1.2",
+    "version": "103",
     "time": "2017-11-11",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Util": "^2"
+        "php": ">=7.3",
+        "horde/exception": "103",
+        "horde/util": "103"
     },
     "suggest": {
         "ext-intl": "*"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Idna": "1.*",
-        "pear-horde/Horde_Idna": "1.*"
     },
     "autoload": {
         "psr-0": {
